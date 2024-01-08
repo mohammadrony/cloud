@@ -1,4 +1,4 @@
-# EC2 with CI-CD
+# EC2 RDS Route53 ALB ACM and Jenkins with Java and MySQL
 
 ![AWS deployment architecture diagram](../images/1-architecture-diagram.png)
 

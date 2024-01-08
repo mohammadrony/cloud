@@ -1,4 +1,4 @@
-# AWS Complete pipeline for Node and MySQL application
+# EC2 and CodePipeline for Node and MySQL
 
 ## Create public EC2 instance and copy db.sql instance
 
