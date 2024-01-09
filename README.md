@@ -1,6 +1,6 @@
 # AWS
 
-## Deployments
+## Projects
 
 - [EC2 RDS Route53 ALB ACM and Jenkins with Java and MySQL](./projects/1-bjit-final-project.md)
 - [EC2 and CodePipeline for Node and MySQL](./projects/2-ec2-codepipeline.md)
