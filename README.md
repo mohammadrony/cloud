@@ -11,3 +11,9 @@
 - [Apache Java and MySQL](./launch-scripts/2-apache-java-mysql.sh)
 - [CodeDeploy Agent](./launch-scripts/3-codedeploy-agent.sh)
 - [EKS Management Host](./launch-scripts/4-eks-host.sh)
+
+## Using CLI for resources
+
+- [Configure new IAM profile](./cli/IAM-profile.md)
+- [Commands for EC2 Instance](./cli/EC2-instances.md)
+- [Commands for Lambda function](./cli/Lambda-functions.md)
