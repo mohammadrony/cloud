@@ -1,5 +1,9 @@
 # AWS
 
+## Services
+
+- [EC2](./services/EC2/)
+
 ## Projects
 
 - [EC2 RDS Route53 ALB ACM and Jenkins with Java and MySQL](./projects/1-bjit-final-project.md)
