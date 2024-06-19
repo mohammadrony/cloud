@@ -1,4 +1,4 @@
-# Commands for Lambda functions
+# Lambda
 
 ## List Regions
 

@@ -1,4 +1,4 @@
-# Commands for EC2 Instances
+# EC2
 
 ## List Regions
 

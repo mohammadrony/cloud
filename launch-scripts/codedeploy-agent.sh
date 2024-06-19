@@ -1,5 +1,6 @@
 #!/bin/bash
 # CodeDeploy Agent
+
 yum -y update
 yum -y install ruby wget
 bucket_name="aws-codedeploy-ap-southeast-1"

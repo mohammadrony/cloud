@@ -1,4 +1,4 @@
-# EC2 and CodePipeline for Node and MySQL
+# EC2 and CodePipeline to Deploy Node and MySQL app
 
 ## Create public EC2 instance and copy db.sql instance
 
@@ -29,9 +29,9 @@ mysql -h <db-host> -P 3306 -u <db-user|admin> -p < db.sql
 #!/bin/bash
 yum -y update
 yum -y install ruby wget
-bucket_name="aws-codedeploy-ap-southeast-1"
-region="ap-southeast-1"
-wget https://${bucket_name}.s3.${region}.amazonaws.com/latest/install
+BUCKET="aws-codedeploy-ap-southeast-1"
+REGION="ap-southeast-1"
+wget https://${BUCKET}.s3.${REGIOIN}.amazonaws.com/latest/install
 chmod +x ./install
 ./install auto
 

@@ -1,4 +1,6 @@
-# Configure new IAM profile
+# IAM
+
+Configure new IAM profile
 
 ## Save user credentials in files
 

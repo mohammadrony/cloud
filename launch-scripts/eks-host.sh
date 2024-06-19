@@ -1,5 +1,6 @@
 #!/bin/bash
 # EKS Management Host
+
 apt update; apt -y upgrade
 
 # Set hostname

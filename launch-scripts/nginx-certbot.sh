@@ -1,5 +1,6 @@
 #!/bin/bash
 # Nginx and Certbot
+
 apt update; apt -y upgrade
 
 # Set hostname
