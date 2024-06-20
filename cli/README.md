@@ -3,14 +3,13 @@
 ## Prerequisites
 
 - [Installation](./installation.md)
-- [IAM Profile Setup](./iam-profile.md)
 
 ## Services
 
-- [EC2](./ec2.md)
-- [IAM](./iam.md)
-- [Lambda](./lambda.md)
+- [EC2](./ec2)
+- [IAM](./iam)
+- [Lambda](./lambda)
 
 ## Others
 
-- [Pricing](./pricing.md)
+- [Pricing](./pricing)
