@@ -2,15 +2,14 @@
 
 ## Prerequisites
 
-- [Account Setup](./account-setup.md)
 - [Installation](./installation.md)
-- [Configure IAM Profile](./iam-profile.md)
+- [IAM Profile Setup](./iam-profile.md)
 
 ## Services
 
-- [EC2](./ec2-commands.md)
+- [EC2](./ec2.md)
 - [IAM](./iam.md)
-- [Lambda](./lambda-commands.md)
+- [Lambda](./lambda.md)
 
 ## Others
 

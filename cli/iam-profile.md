@@ -17,7 +17,7 @@ aws configure
 
 Region list
 
-| Code              | Global Location | Region        |
+| Code              | Global Location | Region Name   |
 |-------------------|-----------------|---------------|
 | `us-east-1`       | US East         | N. Virginia   |
 | `ap-southeast-1`  | Asia Pacific    | Singapore     |
