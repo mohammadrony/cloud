@@ -75,6 +75,10 @@ Current profile
 aws configure list
 ```
 
+```bash
+aws sts get-caller-identity
+```
+
 Set default profile
 
 ```bash
