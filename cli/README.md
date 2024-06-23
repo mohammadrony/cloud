@@ -9,7 +9,4 @@
 - [EC2](./ec2)
 - [IAM](./iam)
 - [Lambda](./lambda)
-
-## Others
-
-- [Pricing](./pricing)
+- [RDS](./rds/)
