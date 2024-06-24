@@ -18,7 +18,6 @@ aws pricing get-products --service-code AmazonEC2 --region us-east-1 --filters \
  | jq -rc '.PriceList[]' | jq -r '[
     .product.attributes.servicecode,
     .product.attributes.location,
-    .product.attributes.instancesku?,
     .product.attributes.instanceType,
     .product.attributes.usagetype,
     .product.attributes.operatingSystem,
