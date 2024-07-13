@@ -4,9 +4,6 @@
 
 - [Installation](./installation.md)
 
-## Services
+## Topics
 
-- [EC2](./ec2)
-- [IAM](./iam)
-- [Lambda](./lambda)
-- [RDS](./rds/)
+- [Region](./region.md)

@@ -1,4 +1,0 @@
-Service Code, Location, Instance Type, Usage Type, Memory,vCPU,Physical Processor,Processor Architecture,Current Generation,Price Unit, Price Per Unit (USD), Price Description
-AmazonRDS,Asia Pacific (Singapore),db.t4g.micro,APS1-Multi-AZUsage:db.t4g.micro,1 GiB,2,AWS Graviton2,64-bit,Yes,Hrs,0.0510000000,$ 0.051 per RDS db.t4g.micro Multi-AZ instance hour (or partial hour) running PostgreSQL
-AmazonRDS,Asia Pacific (Singapore),db.m1.small,APS1-InstanceUsage:db.m1.small,1.7 GiB,1,Intel Xeon Family,32-bit or 64-bit,No,Hrs,0.0750000000,USD 0.075 per db.m1.small instance hour (or partial hour) running PostgreSQL
-AmazonRDS,Asia Pacific (Singapore),db.t2.small,APS1-InstanceUsage:db.t2.small,2 GiB,1,Intel Xeon Family,32-bit or 64-bit,No,Hrs,0.0560000000,USD 0.056 per db.t2.small instance hour (or partial hour) running PostgreSQL

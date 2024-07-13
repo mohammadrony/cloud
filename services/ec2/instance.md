@@ -1,4 +1,4 @@
-# EC2 Instance
+# Instance
 
 ## List Regions
 

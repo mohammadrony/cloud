@@ -1,3 +1,0 @@
-# RDS
-
-- [Pricing](./pricing.md)

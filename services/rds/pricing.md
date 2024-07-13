@@ -9,7 +9,7 @@ All instance for Singapore region
 ```bash
 aws pricing get-products --service-code AmazonRDS --region us-east-1 --filters \
   "Type=TERM_MATCH,Field=location,Value=Asia Pacific (Singapore)" \
-  | jq -rc '.PriceList[]' | jq -r '[ \
+  | jq -rc '.PriceList[]' | jq -r '[
     .product.attributes.servicecode,
     .product.attributes.location,
     .product.attributes.instanceType,
