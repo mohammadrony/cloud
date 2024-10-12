@@ -1,0 +1,37 @@
+# Others
+
+## Service and Topics
+
+- EC2
+  - m2 vs t3
+  - cpu based
+  - memory based
+  - gpu based
+  - ebs mount
+- Auto Scaling
+- RDS
+  - connect client
+  - run query
+  - aurora based
+- S3
+  - create bucket
+  - encryption
+  - kms
+- ELB
+  - on prime lb
+  - alb vs elb
+- IAM
+- VPC
+- Route 53
+- Security Group
+- SNS
+- Lambda
+- Fargate
+- EKS
+- SAM
+- Aurora
+- SagaMaker
+- Cloud Formation
+- Cloud Watch
+- Beanstalk
+- Cloud Trail
