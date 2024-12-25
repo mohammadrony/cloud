@@ -1,6 +1,4 @@
-# Others
-
-## Service and Topics
+# Service Topics
 
 - EC2
   - m2 vs t3

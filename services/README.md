@@ -1,7 +1,7 @@
 # Services
 
-- [EC2](./ec2/)
-- [IAM](./iam/)
-- [Lambda](./lambda/)
-- [RDS](./rds/)
-- [Others](./others.md)
+- [EC2](./ec2/README.md)
+- [IAM](./iam/README.md)
+- [Lambda](./lambda/README.md)
+- [RDS](./rds/README.md)
+- [Others](./others/README.md)
