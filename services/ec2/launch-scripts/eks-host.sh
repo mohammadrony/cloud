@@ -21,7 +21,9 @@ unzip awscliv2.zip
 sudo ./aws/install
 
 # Install Helm
-curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 -o install.sh
+bash install.sh
+rm -f install.sh
 
 # Add Helm charts
 helm repo add eks https://aws.github.io/eks-charts
