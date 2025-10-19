@@ -1,7 +1,4 @@
-# AWS
+# Cloud
 
-- [Architecture](./architecture/README.md)
-- [CLI](./cli/README.md)
-- [Notes](./notes/README.md)
-- [Projects](./projects/README.md)
-- [Services](./services/README.md)
+- [Amazon Web Services](./aws/README.md)
+- [Google Cloud Platform](./gcp/README.md)
