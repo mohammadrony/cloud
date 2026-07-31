@@ -19,8 +19,8 @@ aws pricing get-products --service-code AmazonRDS --region us-east-1 --filters \
     .product.attributes.physicalProcessor,
     .product.attributes.processorArchitecture,
     .product.attributes.currentGeneration,
-    .terms.OnDemand[].priceDimensions[].unit, 
-    .terms.OnDemand[].priceDimensions[].pricePerUnit.USD, 
+    .terms.OnDemand[].priceDimensions[].unit,
+    .terms.OnDemand[].priceDimensions[].pricePerUnit.USD,
     .terms.OnDemand[].priceDimensions[].description] | @csv' > rds-singapore_all.csv
 ```
 
@@ -31,7 +31,7 @@ INSTANCE_TYPE=db.m1.small
 aws pricing get-products --service-code AmazonRDS --region us-east-1 --filters \
   "Type=TERM_MATCH,Field=instanceType,Value=${INSTANCE_TYPE}" \
   "Type=TERM_MATCH,Field=location,Value=Asia Pacific (Singapore)" \
-  | jq -rc '.PriceList[]' | jq -r '[ 
+  | jq -rc '.PriceList[]' | jq -r '[
     .product.attributes.servicecode,
     .product.attributes.location,
     .product.attributes.instanceType,
@@ -41,7 +41,7 @@ aws pricing get-products --service-code AmazonRDS --region us-east-1 --filters \
     .product.attributes.physicalProcessor,
     .product.attributes.processorArchitecture,
     .product.attributes.currentGeneration,
-    .terms.OnDemand[].priceDimensions[].unit, 
-    .terms.OnDemand[].priceDimensions[].pricePerUnit.USD, 
+    .terms.OnDemand[].priceDimensions[].unit,
+    .terms.OnDemand[].priceDimensions[].pricePerUnit.USD,
     .terms.OnDemand[].priceDimensions[].description] | @csv' > rds-singapore_${INSTANCE_TYPE}.csv
 ```

@@ -5,7 +5,7 @@
 Get db identifier
 
 ```bash
-aws rds describe-db-instances | jq -r '.DBInstances[] | {  
+aws rds describe-db-instances | jq -r '.DBInstances[] | {
   "dbidentifier": .DBInstanceIdentifier
 }'
 ```

@@ -54,7 +54,7 @@ INSTANCE_TYPE=t4g.small
 aws pricing get-products --service-code AmazonEC2 --region us-east-1 --filters \
   "Type=TERM_MATCH,Field=instanceType,Value=${INSTANCE_TYPE}" \
   "Type=TERM_MATCH,Field=location,Value=Asia Pacific (Singapore)" \
-  | jq -rc '.PriceList[]' | jq -r '[ 
+  | jq -rc '.PriceList[]' | jq -r '[
     .product.attributes.servicecode,
     .product.attributes.location,
     .product.attributes.instanceType,

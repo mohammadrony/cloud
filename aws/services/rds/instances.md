@@ -7,7 +7,7 @@ aws rds describe-db-instances
 Get instance details
 
 ```bash
-aws rds describe-db-instances | jq -r '.DBInstances[] | {  
+aws rds describe-db-instances | jq -r '.DBInstances[] | {
   "Host": .Endpoint.Address,
   "Port": .Endpoint.Port,
   "Username": .MasterUsername,

@@ -81,16 +81,16 @@ hooks:
 ## Install Apache in Amazon Linux 2
 
 ```bash
-yum install -y httpd httpd-tools mod_ssl 
+yum install -y httpd httpd-tools mod_ssl
 ```
 
 ## Install PHP
 
 ```bash
 yum install -y amazon-linux-extras
-amazon-linux-extras enable php7.4 
-yum clean metadata 
-yum -y install php php-common php-pear 
+amazon-linux-extras enable php7.4
+yum clean metadata
+yum -y install php php-common php-pear
 yum -y install php-{cgi,curl,mbstring,gd,mysqlnd,gettext,json,xml,fpm,intl,zip}
 ```
 
